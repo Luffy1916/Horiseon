@@ -7,14 +7,14 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* the .header class is edited entirely  */ 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*all h1 in header are formatted the same */ 
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -23,18 +23,21 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* all the header sections are formatted using the below code*/ 
 .header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
 }
+
+/*formated all the unordered list (list) in the header class under section  */ 
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*formatted all the hyperlinks */ 
 a {
     color: #ffffff;
     text-decoration: none;
@@ -43,7 +46,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* the .hero class in the body is formatted usimg the below code */ 
 .hero {
     height: 800px;
     width: 100%;
@@ -52,12 +55,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* the class .float left is used to format the paragraphs within the web page to the left */ 
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* the class .float left is used to format the paragraphs within the web page to the right */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -68,7 +71,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* the benefits class  is used to the  aside element within the web page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -79,7 +82,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* the benefits section   is used to format the content within the aside element within the web page */
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -95,7 +98,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* all articles in the html structure are formatted altogether  */ 
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -104,6 +107,7 @@ article {
     background-color: #0072bb;
     color: #ffffff;
 }
+/*all images in the artcles are formated in the hierarcal order according to the below code */ 
  article img {
     max-height: 200px;
 }
